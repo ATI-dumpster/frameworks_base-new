@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ios_volume_background"
+    android:layout_gravity="center|end"
+    android:layout_marginEnd="16dp"
+    android:padding="8dp">
+
+    <!-- Volume Slider Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Three Dots Menu -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <View
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:background="#FFFFFF"
+                android:layout_margin="2dp"/>
+            <View
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:background="#FFFFFF"
+                android:layout_margin="2dp"/>
+            <View
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:background="#FFFFFF"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+
+	<FrameLayout
+	    android:layout_width="2dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp"
+	    android:background="#4DFFFFFF">
+
+	    <LinearLayout
+        	android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+        	android:orientation="vertical">
+
+	        <View
+	            android:layout_width="match_parent"
+            	android:layout_height="0dp"
+            	android:layout_weight="0.3" />
+
+	        <View
+            	android:id="@+id/volume_level"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="0.7"
+	            android:background="#FFFFFF" />
+	    </LinearLayout>
+	</FrameLayout>
+
+        <!-- Music Icon -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ios_volume_music_icon"
+            android:tint="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>

@@ -16,6 +16,13 @@
 */
 -->
 <resources>
+    <!-- IOS Volume Panel -->
+    <dimen name="volume_dialog_panel_transparent_padding">8dp</dimen>
+    <dimen name="volume_dialog_panel_width">48dp</dimen>
+    <dimen name="volume_dialog_slider_width">2dp</dimen>
+    <dimen name="volume_dialog_icon_size">24dp</dimen>
+    <dimen name="volume_dialog_total_height">160dp</dimen>
+
     <!-- Recommended minimum clickable element dimension -->
     <dimen name="min_clickable_item_size">48dp</dimen>
 
@@ -581,17 +588,11 @@
 
     <dimen name="volume_dialog_panel_transparent_padding_horizontal">8dp</dimen>
 
-    <dimen name="volume_dialog_panel_transparent_padding">20dp</dimen>
-
     <dimen name="volume_dialog_ringer_rows_padding">7dp</dimen>
 
     <dimen name="volume_dialog_stream_padding">12dp</dimen>
 
-    <dimen name="volume_dialog_panel_width">56dp</dimen>
-
     <dimen name="volume_dialog_panel_width_half">28dp</dimen>
-
-    <dimen name="volume_dialog_slider_width">42dp</dimen>
 
     <dimen name="volume_dialog_slider_corner_radius">21dp</dimen>
 

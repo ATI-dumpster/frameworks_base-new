@@ -28,6 +28,10 @@
     <color name="status_bar_icons_hover_color_light">#38FFFFFF</color> <!-- 22% white -->
     <color name="status_bar_icons_hover_color_dark">#38000000</color> <!-- 22% black -->
 
+    <!-- IOS Volume Panel -->
+    <color name="volume_panel_background">#4D000000</color>
+    <color name="volume_panel_foreground">#FFFFFF</color>
+
     <!-- The dark background color behind the shade -->
     <color name="shade_scrim_background_dark">@androidprv:color/system_under_surface_light</color>
 
